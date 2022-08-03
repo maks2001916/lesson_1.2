@@ -37,7 +37,7 @@ public class Main {
         int eggWeight = eggs * oneEgg;
         long totalMassOfProducts = weightOfBananas + milkWeight + massOfIceCream + eggWeight;
         long oneKilogramms = 1000;
-        float massInKilogrsms = totalMassOfProducts / oneKilogramms;
+        float massInKilogrsms = totalMassOfProducts / (float)oneKilogramms;
         System.out.println("Масса завтрака " + massInKilogrsms + " кг");
         //четвёртая задача
         int weightLoss = 7000;
@@ -47,6 +47,10 @@ public class Main {
         int numberOfDaysTwo = weightLoss / weightLossTwo;
         System.out.println(numberOfDaysOne + " дней уйдёт на похудение при потере 250 грамм массы в день ");
         System.out.println(numberOfDaysTwo + " дней уйдёт на похудение при потере 500 грамм массы в день ");
+        int generalValue = numberOfDaysOne + numberOfDaysTwo;
+        byte quantity = 2;
+        int averageValue = generalValue / quantity;
+        System.out.println("в среднем уйдёт " + averageValue + " день на похудение");
 
 
 
