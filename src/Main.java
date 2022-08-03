@@ -51,6 +51,41 @@ public class Main {
         byte quantity = 2;
         int averageValue = generalValue / quantity;
         System.out.println("в среднем уйдёт " + averageValue + " день на похудение");
+        //дятая задача
+        int mashasSalary = 67_760;
+        int denissSalary = 83_690;
+        int kristinasSalary = 76_230;
+        int newMashasSalary = mashasSalary / 10;
+        int newDenissSalary = denissSalary / 10;
+        int newKristinasSalary = kristinasSalary / 10;
+        int newMashasSalaryTwo = mashasSalary + newMashasSalary;
+        int newDenissSalaryTwo = denissSalary + newDenissSalary;
+        int newKristinasSalaryTwo = kristinasSalary + newKristinasSalary;
+        int mashasSalaryYear = mashasSalary * 12;
+        int denissSalaryYear = denissSalary * 12;
+        int kristinasSalaryYear = kristinasSalary * 12;
+        int newMashasSalaryYear = newMashasSalaryTwo * 12;
+        int newDenissSalaryYear = newDenissSalaryTwo * 12;
+        int newKristinasSalaryYear = newKristinasSalaryTwo * 12;
+        int mashasDifference = newMashasSalaryYear - mashasSalaryYear;
+        int denissDifference = newDenissSalaryYear - denissSalaryYear;
+        int kristinasDifference = newKristinasSalaryYear - kristinasSalaryYear;
+        System.out.println("увеличенная зарплата Маши составляет " + newMashasSalaryTwo + " руб");
+        System.out.println("увеличенная зарплата Дениса составляет " + newDenissSalaryTwo + " руб");
+        System.out.println("увеличенная зарплата Кристины составляет " + newKristinasSalaryTwo + " руб");
+        System.out.println("годовой оклад Маши составляет " + mashasSalaryYear + " руб");
+        System.out.println("годовой оклад Дениса составляет " + denissSalaryYear + " руб");
+        System.out.println("годовой оклад Кристины составляет " + kristinasSalaryYear + " руб");
+        System.out.println("Новый годовой оклад Маши составляет " + newMashasSalaryYear + " руб");
+        System.out.println("Новый годовой оклад Дениса составляет " + newDenissSalaryYear + " руб");
+        System.out.println("Новый годовой оклад Кристины составляет " + newKristinasSalaryYear + " руб");
+        System.out.println("разница оклада Маши составляет " + mashasDifference + " руб");
+        System.out.println("разница оклада Дениса составляет " + denissDifference + " руб");
+        System.out.println("разница оклада Кристины составляет " + kristinasDifference + " руб");
+
+
+
+
 
 
 
